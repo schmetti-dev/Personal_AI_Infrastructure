@@ -26,7 +26,7 @@ set -euo pipefail
 LIFEOS_VERSION="${LIFEOS_VERSION:-6.0.0}"
 LIFEOS_TAG="v${LIFEOS_VERSION}"
 # Repo owner/name are parameterized — set at publish time, never hard-coded here.
-LIFEOS_REPO="${LIFEOS_REPO:-OWNER/REPO}"
+LIFEOS_REPO="${LIFEOS_REPO:-danielmiessler/LifeOS}"
 LIFEOS_TARBALL_URL="${LIFEOS_TARBALL_URL:-https://github.com/${LIFEOS_REPO}/archive/refs/tags/${LIFEOS_TAG}.tar.gz}"
 # Where the LifeOS skill dir lives inside the release tree:
 LIFEOS_RELEASE_SUBPATH="${LIFEOS_RELEASE_SUBPATH:-LifeOS}"
